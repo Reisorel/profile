@@ -1,0 +1,86 @@
+h1 {
+  font-family: 'Bayon', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+h2 a:hover {
+  color: #64CCC5;
+}
+
+h2{
+font-family: 'Nunito Sans', sans-serif;
+color: #64CCC5;
+font-size: 15px;
+}
+
+.container{
+width: 500px;
+margin: 0 auto;
+background-color: #053B50;
+display:flex;
+flex-direction: column;
+align-items:center;
+}
+
+.card{
+text-align: center;
+background-color: #176B87;
+border-radius: 15px;
+padding: 10px;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #053B50;
+
+  font-size:20px;
+
+  font-weight:10;
+
+  line-height:1,5;
+
+  color:#ffffff
+}
+
+body a:hover {
+  color: #64CCC5;
+}
+
+img {
+  width:25%;
+  height:25%;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
